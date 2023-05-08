@@ -13,18 +13,18 @@ import transactions from '../data/transactions.json';
 export function App() {
   return (
     <Container>
-             <Profile
-          avatar={user.avatar}
-          username={user.username}
-          tag={user.tag}
-          location={user.location}
-          followersQuantity={user.stats.followers}
-          viewsQuantity={user.stats.views}
-          likesQuantity={user.stats.likes}
-        />
-        <Statistics title="Upload stats" stats={data} />
-        <FriendList friends={friends} />
-        <TransactionHistory items={transactions} />
+      <Profile
+        avatar={user.avatar}
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        followersQuantity={user.stats.followers}
+        viewsQuantity={user.stats.views}
+        likesQuantity={user.stats.likes}
+      />
+      <Statistics title="Upload stats" stats={data} />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </Container>
   );
 }

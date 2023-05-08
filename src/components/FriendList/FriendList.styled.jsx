@@ -7,7 +7,6 @@ export const AllFriendList = styled.ul`
 export const Friend = styled.li`
   padding-right: 24px;
   padding-left: 24px;
-
   width: 380px;
   border-radius: 5px;
   margin-left: auto;
