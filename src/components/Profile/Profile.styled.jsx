@@ -8,7 +8,7 @@ export const Card = styled.div`
   margin-right: auto;
   background-color: rgb(233 233 233);
   box-shadow: 2px 2px 2px grey;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 `;
 
 export const Description = styled.div`
